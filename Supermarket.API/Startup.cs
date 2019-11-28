@@ -11,6 +11,7 @@ using Supermarket.API.Domain.Persistence.Contexts;
 using Supermarket.API.Domain.Repositories;
 using Supermarket.API.Domain.Services;
 using Supermarket.API.Persistence.Repositories;
+using Supermarket.API.Service;
 using static Supermarket.API.Domain.Repositories.ICategoryRespository;
 
 namespace Supermarket.API
@@ -44,12 +45,13 @@ namespace Supermarket.API
 
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
+
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
 
-
-          
 
         }
 
