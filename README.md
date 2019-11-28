@@ -8,6 +8,12 @@
  - Entity Framework In-Memory Provider
  - AutoMapper
  
+ 
+ ## Caracteristicas.
+ 
+ CRUD basico con Mysql.
+ 
+ 
  ## Como empezar.
  
  Primero, iniciamos el proyecto.
