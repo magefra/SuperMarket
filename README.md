@@ -21,3 +21,6 @@ dotnet run
  
  
  
+## Autor ✒️
+
+ISC.Magdiel Efrain Palacios Rivera.
