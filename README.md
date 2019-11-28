@@ -3,7 +3,7 @@
  
  
  ## Frameworks and Libraries
- - NET.NET Core 3.0
+ - NET Core 3.0
  - Entity Framework Core
  - Entity Framework In-Memory Provider
  - AutoMapper
@@ -11,7 +11,7 @@
  
  ## Caracteristicas.
  
- CRUD basico con Mysql.
+ CRUD basico con SqlServer.
  
  
  ## Como empezar.
