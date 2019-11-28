@@ -9,6 +9,16 @@
  - AutoMapper
  
  
+ # Instalar.
+
+ ```
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+
+ ```
+ 
+ 
  ## Caracteristicas.
  
  CRUD basico con SqlServer.
