@@ -12,8 +12,10 @@
  
  Primero, iniciamos el proyecto.
  
- dotnet restore
- dotnet run
+ ```
+dotnet restore
+dotnet run
+```
  
  Navegamos a https://localhost:5001/api/categories.
  
