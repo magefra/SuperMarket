@@ -20,7 +20,7 @@ namespace Supermarket.API.Domain.Services
         /// </summary>
         /// <param name="category"></param>
         /// <returns></returns>
-        Task<SaveCategoryResponse> SaveAsync(Category category);
+        Task<CategoryResponse> SaveAsync(Category category);
 
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace Supermarket.API.Domain.Services
         /// <param name="id"></param>
         /// <param name="category"></param>
         /// <returns></returns>
-        Task<SaveCategoryResponse> UpdateAsync(int id, Category category);
+        Task<CategoryResponse> UpdateAsync(int id, Category category);
 
 
         /// <summary>
