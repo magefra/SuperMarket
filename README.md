@@ -16,8 +16,17 @@
  
  ## Como empezar.
  
- Primero, iniciamos el proyecto.
  
+ Primero, hacemos las migraciones
+ 
+  ```
+ add-migration
+ update-database
+ ```
+ 
+ Segundo, iniciamos el proyecto.
+ 
+
  ```
 dotnet restore
 dotnet run
